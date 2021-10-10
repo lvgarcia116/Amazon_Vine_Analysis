@@ -5,6 +5,7 @@ The purpose of this analysis is to select a dataset and use PySpark to perform t
 Results: 
 How many Vine reviews and non-Vine reviews were there?
 The image shows below that there are 613 Vine paid reviews and 64,968 unpaid reviews.
+
 ![image](https://user-images.githubusercontent.com/86024512/136711798-57de3a11-d16a-4c12-b04f-1d7d74ca79a0.png)
 
 
