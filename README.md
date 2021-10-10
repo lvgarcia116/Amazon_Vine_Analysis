@@ -1,8 +1,8 @@
 # Amazon_Vine_Analysis
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis
 The purpose of this analysis is to select a dataset and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
-Results: 
+## Results
 How many Vine reviews and non-Vine reviews were there?
 * The image shows below that there are 613 Vine paid reviews and 64,968 unpaid reviews.
 
@@ -20,5 +20,6 @@ What percentage of Vine reviews were 5 stars? What percentage of non-Vine review
 <img width="761" alt="Screen Shot 2021-10-10 at 4 23 51 PM" src="https://user-images.githubusercontent.com/86024512/136711992-44f2f39e-3025-4a0f-b0bc-436be4b8ab24.png">
 
 
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+# Summary
+In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 In this dataset, there is not positivity bias as close to 50% of five star reviews were non-Vine reviews whereas 36% of 5 star reviews were Vine reviews. An additional analysis could be to review a different type of dataset, the one reviewed here was wireless products perahps the positivity bias would change in a different dataset (i.e., videogames or watch reviews). However, for this specific dataset, we could look at the 1 star reviews of Vine and non-Vine reviews.
